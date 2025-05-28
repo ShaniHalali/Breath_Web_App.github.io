@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- תמיכה בעברית-->
+<html dir="rtl">    </html>
+
+<!-- אתן חייבות שתמיד יהיה עמוד שנקרא index-->
+<html lang="he">
+
+
+  <head>
+    <title>hackathon QueenB</title>
+    <meta charset="UTF-8" />
+    <!-- זאת שורה שהופכת את הנראות של האתר לגודל של טלפון-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- זאת שורה שמחברת לCSS-->
+    <link rel="stylesheet" href="styles.css" />
+   
+
+  </head>
+  <body>
+    <img src="Breath_Logo.png" alt="brain" class="logo" />
+    <!-- תפריט כפתורים לניווט בין הדפים-->
+   <button onclick="location.href='page2.html'" class="button"> מילוי פרטים לכפתור מצוקה </button>
+   <button onclick="location.href='page3.html'" class="button">מה לעשות בזמן התקף חרדה</button>
+   <button onclick="location.href='page4.html'" class="button">שאלון אבחון פוסט טראומה</button>
+
+    <!-- את מתכנתות בתוך הבאדי-->
+    <h1 style="background-color: #d8ead4; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; font-size: 70px;">ברוכים הבאים לאתר נשימה! </h1>
+    <h2 style="font-size: 40px;"> הכתובת שלך לפוסט טראומה</h2>
+
+    <img src="cover_picture.jpeg" alt="brain" class="cover_picture" />
+    <br>
+    <br>
+    <h3>מה זה פוסט טראומה?</h3>
+    <p>
+      פוסט טראומה, או בשמה המלא הפרעת דחק פוסט-טראומטית (PTSD), היא מצב נפשי
+      שעלול להתפתח אחרי שאדם חווה או היה עד לאירוע טראומטי ומסכן חיים. אירועים
+      כאלה יכולים להיות מלחמה, תאונות קשות, אלימות או אסונות טבע. בעוד שרוב
+      האנשים מתאוששים מתגובות לחץ רגילות עם הזמן, אצל הסובלים מפוסט טראומה,
+      התגובות נשארות חזקות ואף מחמירות. המוח שלהם מתקשה לעבד את האירוע, וכאילו
+      נשאר "תקוע" במצב חירום. זה משפיע על כל תחומי החיים – יחסים, עבודה, ורווחה
+      כללית. למרות הקושי, חשוב לדעת שפוסט טראומה היא ברת טיפול, ובעזרת עזרה
+      מקצועית ניתן ללמוד להתמודד ולחזור לחיים מלאים.
+    </p>
+    <h3>מי אנחנו?</h3>
+      <p>אנחנו קבוצה של מתכנתות מארגון הפועל ליצירת עתיד שבו נשים פעילות באותה מידה בתעשיית ההייטק, ומובילות בה! שנקרא קווין בי (queen B) אנחנו קבוצה של חמש חניכות תמר מרכוס, נעה סמואל, אלומה בר און, לשם שמעון וליאלי משה ושני מדריכות הדר דבוש ושני הללי. וקיבלנו משימה לבנות אתר שיעזור לבעיות חברתיות ובחרנו לעשות אתר על פוסט טראומה</p>
+      <h3>למה בחרנו דווקא בפוסט טראומה?</h3>
+      <p>בחרנו לפתח אפליקציית ווב בנושא פוסט-טראומה, מתוך רצון להעלות מודעות ולתת מקום לרגש בתקופה כל כך לא פשוטה.
+
+        בתקופה בה אזעקות, חדשות קשות, ומראות מהמלחמה הפכו לשגרה, חשוב לנו במיוחד להתייחס גם לפן הנפשי — במיוחד בקרב בני נוער וילדים.
+        אירועים כמו מתקפת הנובה, ימי לחימה ממושכים, ותחושת חוסר הביטחון ברחובות משפיעים עמוקות על רבים, לעיתים מבלי שידברו על כך.
+        
+        באמצעות האתר שיצרנו, רצינו להציע מקום בטוח, רגוע ותומך —
+        מקום שבו כל אחת ואחד יכולים לשתף, להירגע, ולגלות שהם לא לבד.
+        
+        המטרה שלנו היא לא רק להציג פרויקט תכנות —
+        אלא להראות שאפשר להשתמש בקוד ככלי ליצירת שינוי אמיתי.</p>
+      <!-- את החיבור לגאווה סקיפט להשאיר תמיד אחרון-->
+      <script src="./script.js"></script>
+    </p>
+  </body>
+</html>
+
+ <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+        padding: 50px;
+        text-align: center;
+      }
+
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px; 
+  }
+  .button {
+    background-color: #54a1bb;  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .cover_picture {
+    display: block;
+    width: 100%;
+    height: 400px; /* שמירה על פרופורציה, או להגדיר גובה ידני */
+    max-height: 600px; /* אפשר לשנות לפי רצונך */
+    object-fit: fill; /* חיתוך יפה שממלא את המסגרת */
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+ 
+
+  
+</style>
+

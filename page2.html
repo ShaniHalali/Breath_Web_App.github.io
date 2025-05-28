@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- תמיכה בעברית-->
+<html dir="rtl">    </html>
+
+<!-- אתן חייבות שתמיד יהיה עמוד שנקרא index-->
+<html lang="he">
+  <head>
+    <title>hackathon QueenB</title>
+    <meta charset="UTF-8" />
+    <!-- זאת שורה שהופכת את הנראות של האתר לגודל של טלפון-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- זאת שורה שמחברת לCSS-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="Breath_Logo.png" alt="brain" class="logo" />
+   <!-- תפריט כפתורים לניווט בין הדפים-->
+   <button onclick="location.href='page1.html'" class="button"> דף הבית</button>
+   <button onclick="location.href='page3.html'" class="button">מה לעשות בזמן התקף חרדה</button>
+   <button onclick="location.href='page4.html'" class="button">שאלון אבחון פוסט טראומה</button>
+
+    <!-- את מתכנתות בתוך הבאדי-->
+    <h1>מילוי פרטים לכפתור מצוקה</h1>
+    <p></p>
+    <p>כפתור המצוקה שנמצא בראש כל עמוד באתר נועד לספק עזרה מהירה ונגישה ברגעי חירום בעת הצורך, לחיצה עליו תאפשר יצירת קשר עם האדם שהוגדר מראש כגורם לעזרה.</p>
+    <p>באמצעות האתר, ניתן לסייע גם לאדם אחר שחווה התקף – על ידי לחיצה על כפתור המצוקה האישי שלו, שהוגדר מראש עם פרטיו החשובים לעת חירום.</p>
+    <label for="shem  ">שם פרטי:</label>
+    <br />
+    <input type="text " id="shem " />
+    <br /><br />
+    <label for="shem mishpaha">שם משפחה:</label>
+    <br />
+    <input type="text " id="shem mshpaha" />
+    <br /><br />
+     <label for="shem noten esra"> שם מלא של נותן העזרה:</label>
+    <br />
+    <input type="text " id="shem noten esra" />
+    <br /><br />
+    
+    <label for="telefon ">מספר טלפון אישי:</label>
+    <br />
+    <input type="number" id="telefon" />
+    <br /><br />
+    <label for="telefon herom ">מספר טלפון לשעת חירום:</label>
+    <br />
+    <input type="number" id="telefon herom" />
+    <br /><br />
+    <button type="submit" class="send_file">שלח את הטופס</button>
+    <!-- את החיבור לגאווה סקיפט להשאיר תמיד אחרון-->
+    <script src="./script.js"></script>
+  </body>
+</html>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+        padding: 50px;
+        text-align: center;
+      }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px; 
+  }
+  .button {
+    background-color: #54a1bb;  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  .send_file {
+    background-color: #8C74A4;  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  </style>
