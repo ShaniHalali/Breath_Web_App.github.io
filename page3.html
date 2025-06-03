@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <!-- תמיכה בעברית-->
-<html dir="rtl">    </html>
+<html lang="he" dir="rtl">
 <!-- אתן חייבות שתמיד יהיה עמוד שנקרא index-->
-<html lang="he">
   <head>
     <title>hackathon QueenB</title>
     <meta charset="UTF-8" />
     <!-- זאת שורה שהופכת את הנראות של האתר לגודל של טלפון-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- זאת שורה שמחברת לCSS-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="sos.css" />
   </head>
   <body>
     <img src="Breath_Logo.png" alt="brain" class="logo" />
+    <button class="button-sos" role="button">SOS</button>
     <!-- תפריט כפתורים לניווט בין הדפים-->
     <button onclick="location.href='index.html'" class="button"> דף הבית</button>
     <button onclick="location.href='page2.html'" class="button">מילוי פרטים לכפתור מצוקה</button>
-    <button onclick="location.href='page4.html'" class="button">שאלון אבחון פוסט טראומה</button>
+    <button onclick="location.href='page4.html'" class="button">בואו נסיח את הדעת</button>
     <!-- את מתכנתות בתוך הבאדי-->
-    <h1>(PD) מה לעשות בזמן התקף חרדה?</h1>
-    <h2 style="background-color: #d8ead4;">תמיד תוכלו ללחוץ על כפתור המצוקה בראש האתר !</h2>
+    <h1 style="background-color: #d8ead4;">מדריך קצר: כך תרגיע את עצמך בזמן התקף חרדה</h1>
+    <h2 style="background-color: rgb(188, 134, 172); direction: rtl; text-align: center;">
+    זכרו! תמיד תוכלו להשתמש בכפתור המצוקה שנמצא בראש האתר</h2>
     <h3>הכירו בזה שזה התקף</h3>
     <p>אמרו לעצמכם: "זה יחלוף. אני בטוח/ה עכשיו."</p>
 
@@ -45,7 +46,7 @@
     <p>דברו עם מישהו בטוח אם אפשר, ותנו לעצמכם מנוחה.</p>
 
     <hr/>
-    <h1 style="background-color: #d8ead4;"> מה לעשות כשמישהו חווה התקף חרדה (PD)</h1>
+    <h1 style="background-color: #d8ead4;"> מדריך קצר: איך להרגיע מישהו בזמן התקף חרדה</h1>
 
     <h3>התקרבי בעדינות ובכבוד</h3>
     <p>
@@ -110,36 +111,6 @@
       
       </p>
     <!-- את החיבור לגאווה סקיפט להשאיר תמיד אחרון-->
-    <script src="./script.js"></script>
+    <script src="sos.js"></script>
   </body>
 </html>
-
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 50px;
-    text-align: center;
-  }
-
-  .logo {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 200px; 
-  }
-
-  .button {
-    background-color: #54a1bb;  
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
