@@ -13,18 +13,19 @@
     <button onclick="location.href='page3.html'" class="button">מה לעשות בזמן התקף חרדה</button>
     <h1 style="background-color: #d8ead4;">בואו נסיח את הדעת! </h1>
     <h3>נסו לצבור כמה שיותר נקודות !</h3>
+    <hr/>
     
     <h5>
 באיזה עיר נמצא מגדל אייפל ?    </h5>
 
-    <button onclick="question1()" >לחץ כדי לענות</button>
+    <button onclick="question1() " class="qButton">לחץ כדי לענות</button>
     <br />
     <img src="Tower.jpeg"  />
 
     <h5>
 מהו בעל החיים המהיר ביותר ביבשה?    </h5>
 
-    <button onclick="question2()">לחץ כדי לענות</button>
+    <button onclick="question2()"class="qButton">לחץ כדי לענות</button>
     <br />
     <img src="fast.jpeg"  />
 
@@ -32,7 +33,7 @@
     <h5>
 כמה כוכבים יש בדגל ארצות הברית?    </h5>
 
-    <button onclick="question3()">לחץ כדי לענות</button>
+    <button onclick="question3()"class="qButton">לחץ כדי לענות</button>
     <br />
     <img src="Tramp.jpeg"  />
 
@@ -40,25 +41,25 @@
     <h5>
 מהו היסוד הכימי המסומן באותיות H2O?    </h5>
 
-    <button onclick="question4()">לחץ כדי לענות</button>
+    <button onclick="question4()"class="qButton">לחץ כדי לענות</button>
     <br />
     <img src="wather.jpeg"  />
 
 
     <h5> איזה כלי נגינה מכיל 88 קלידים?</h5>
-    <button onclick="question5()">לחץ כדי לענות</button>
+    <button onclick="question5()"class="qButton">לחץ כדי לענות</button>
     <br />
       <img src="piano.jpeg"  />
 
     <h5> מה המקום הגבוה ביותר בעולם?</h5>
-    <button onclick="question6()">לחץ כדי לענות</button>
+    <button onclick="question6()"class="qButton">לחץ כדי לענות</button>
     <br />
     <img src="Mountain.jpeg"  />
 
 
  <h5>
 מי הוא מחבר הספר הנסיך הקטן?    </h5>
-    <button onclick="question7()">לחץ כדי לענות</button>
+    <button onclick="question7()"class="qButton">לחץ כדי לענות</button>
     <br />
      <img src="Prince.jpeg"  />
 
@@ -66,14 +67,14 @@
     <h5>
 איזה עיר ידועה בכינוי "התפוח הגדול"?    </h5>
 
-    <button onclick="question8()">לחץ כדי לענות</button>
+    <button onclick="question8()"class="qButton">לחץ כדי לענות</button>
   <br />
               <img src="apple.jpeg"  />
 
     <br />
 
 
-    <button onclick="how()">חשב תוצאה</button>
+    <button onclick="how()" class="result">חשב תוצאה</button>
     <script src="page4.js"></script>
     <script src="sos.js"></script>
     <hr />
@@ -91,6 +92,38 @@
     margin: 10px;
     align-items: "left";
   }
+  .qButton {
+    background-color: #993e81; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .result {
+    background-color: #54a1bb;  
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
 </style>
 
 
