@@ -1,6 +1,6 @@
 # 🌬️ Breath Web App
 
-Welcome to the **Breath Web App** – a calming and interactive website thoughtfully developed by our five inspiring 8th-grade mentees, guided and supported by us, their mentors – **Shani Halali(me)** and **Hadar Dabush**.  
+Welcome to the **Breath Web App** – a calming and interactive website thoughtfully **developed by our five inspiring 8th-grade mentees, guided and supported by us, their mentors – **Shani Halali(me)** and **Hadar Dabush****.  
 This project was created as part of the **QUEEN B** program – a non-profit initiative where Computer Science students mentor middle school girls and teach them how to code.
 
 Together, Hadar and I taught the girls all the coding concepts and principles that led to the creation of the final product – the Breath Web App.
